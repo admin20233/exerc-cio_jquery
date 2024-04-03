@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+
+}
+
+header{
+    background-color: black;
+    padding: 24px;
+}
+
+header h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+
+}
+
+body{
+    background-color: black;
+}
+
+form{
+    background-color: rgb(223, 0, 0);
+    padding: 24px;
+    text-align: center;
+}
+
+form label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+form input{
+    padding: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+form button{
+    padding: 7px;
+    background-color: black;
+    border-bottom: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+ul{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+    
+}
+
+ul li .tarefa{
+    color: black;
+    background-color: blue;
+    
+}
+
+
+#lista {
+    padding: 16px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+li{
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+
+
+
